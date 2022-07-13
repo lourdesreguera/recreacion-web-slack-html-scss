@@ -1,0 +1,42 @@
+.b-steps__cards {
+    @media (min-width: 1200px) {
+        display: flex;
+    }
+}
+
+.b-step-card {
+    margin: 40px 0 60px 0;
+    @media (min-width: 1200px) {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.b-steps__slides {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.b-slide-card {
+    background-color: var(--color-card-slide);
+    max-width: 280px;
+    padding: 10px;
+    box-shadow: 0px 0px 11px 1px #00000017;
+    
+    margin: 10px;
+    box-sizing: border-box;
+    &--desk {
+        display: none;
+        @media (min-width: 1200px) {
+            display: block;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.new-color {
+    color: var(--color-p-card-slide);
+}

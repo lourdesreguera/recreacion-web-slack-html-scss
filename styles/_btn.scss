@@ -1,0 +1,42 @@
+.b-btn {
+    background-color: var(--color-btn);
+    border-radius: 4px;
+    padding: 20px 24px;
+    text-align: center;
+    &--step {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &--try-first {
+        background-color: var(--color-card-slide);
+        @media (min-width: 1200px) {
+            margin-right: 10px;
+        }
+    }
+    &--try-sec {
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    &--head {
+        background-color: transparent;
+        border: 2px solid var(--color-btn);
+        padding: 10px 15px;
+        transition: border 0.25s ease-in-out;
+    }
+    &--head-sec {
+        padding: 10px 15px;
+        transition: background-color 0.25s ease-in-out;
+    }
+}
+
+.b-btn--head:hover {
+    border: 3px solid var(--color-btn);
+}
+
+.b-btn--head-sec:hover {
+    background-color: var(--color-purple-bg);
+}

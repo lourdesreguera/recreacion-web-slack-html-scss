@@ -1,0 +1,101 @@
+.b-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background-color: var(--color-violet-bg);
+}
+
+.b-header__logo {
+    width: 100px;
+}
+
+.b-header__menu {
+    width: 20px;
+    @media (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.b-hero {
+    margin-top: 100px;
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+        margin: 120px auto 50px auto;
+    }
+}
+
+.b-hero__container {
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.b-hero__text {
+    @media (min-width: 1200px) {
+        max-width: 490px;
+      }
+}
+
+.b-hero__img-container {
+    margin-top: 30px;
+    @media (min-width: 1200px) {
+        margin-top: 0;
+        max-width: 600px;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.b-hero__icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.b-hero__icon {
+    width: 70px;
+    max-height: 100px;
+    &--lonely {
+        width: 137px;
+    }
+    &--intuit {
+        width: 105px;
+    }
+    &--carvana {
+        width: 170px;
+    }
+    &--kiva {
+        width: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    &--target {
+        width: 35px;
+    }
+    &--deva {
+        width: 135px;
+    }
+}
+
+.b-list--head {
+    display: none;
+    @media (min-width: 1200px) {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li {
+            margin-right: 20px ;
+        }
+    }
+}

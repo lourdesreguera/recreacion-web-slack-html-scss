@@ -1,0 +1,16 @@
+.b-try {
+    background-color: var(--color-purple-bg);
+    padding: 40px 20px 90px 20px;
+    clip-path: ellipse(100% 100% at center top);
+    div {
+        margin-bottom: 15px;
+    }
+}
+
+.b-try__btns {
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+

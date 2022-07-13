@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: var(--font-p);
+}
+
+
+.b-first-sec {
+    background-color: var(--color-violet-bg);
+    padding: 10px 20px;
+}
+
+.b-main,
+.b-footer {
+    padding: 10px 20px;
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.b-steps {
+    background-color: var(--color-violet-bg);
+    padding: 10px 30px 80px 30px;
+    @media (min-width: 1200px) {
+        padding-top: 40px;
+    }
+}
+
+.b-steps__container {
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
